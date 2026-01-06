@@ -1,0 +1,174 @@
+{
+  "metrics": {
+    "Zero-Shot": {
+      "json_valid": 100.0,
+      "accuracy": 63.5,
+      "within_1": 99.0,
+      "mae": 0.375,
+      "per_class": {
+        "1": 0.875,
+        "2": 0.475,
+        "3": 0.45,
+        "4": 0.4,
+        "5": 0.975
+      },
+      "avg_time": 1.5683234024047852
+    },
+    "Few-Shot": {
+      "json_valid": 44.5,
+      "accuracy": 58.42696629213483,
+      "within_1": 98.87640449438202,
+      "mae": 0.42696629213483145,
+      "per_class": {
+        "1": 0.7692307692307693,
+        "2": 0.5,
+        "3": 0.2727272727272727,
+        "4": 0.46153846153846156,
+        "5": 0.9523809523809523
+      },
+      "avg_time": 1.186638813340262
+    },
+    "Chain-of-Thought": {
+      "json_valid": 9.0,
+      "accuracy": 66.66666666666666,
+      "within_1": 100.0,
+      "mae": 0.3333333333333333,
+      "per_class": {
+        "1": 1.0,
+        "2": 0.5,
+        "3": 0.6,
+        "4": 0.25,
+        "5": 1.0
+      },
+      "avg_time": 1.4430949423048232
+    }
+  },
+  "sample_predictions": {
+    "Zero-Shot": [
+      {
+        "actual": 4,
+        "predicted": 4
+      },
+      {
+        "actual": 3,
+        "predicted": 4
+      },
+      {
+        "actual": 5,
+        "predicted": 5
+      },
+      {
+        "actual": 4,
+        "predicted": 5
+      },
+      {
+        "actual": 1,
+        "predicted": 1
+      },
+      {
+        "actual": 5,
+        "predicted": 5
+      },
+      {
+        "actual": 2,
+        "predicted": 2
+      },
+      {
+        "actual": 2,
+        "predicted": 1
+      },
+      {
+        "actual": 1,
+        "predicted": 2
+      },
+      {
+        "actual": 5,
+        "predicted": 5
+      }
+    ],
+    "Few-Shot": [
+      {
+        "actual": 4,
+        "predicted": 4
+      },
+      {
+        "actual": 3,
+        "predicted": 4
+      },
+      {
+        "actual": 5,
+        "predicted": 5
+      },
+      {
+        "actual": 4,
+        "predicted": 5
+      },
+      {
+        "actual": 1,
+        "predicted": 2
+      },
+      {
+        "actual": 5,
+        "predicted": 5
+      },
+      {
+        "actual": 2,
+        "predicted": 2
+      },
+      {
+        "actual": 2,
+        "predicted": 1
+      },
+      {
+        "actual": 1,
+        "predicted": 2
+      },
+      {
+        "actual": 5,
+        "predicted": 5
+      }
+    ],
+    "Chain-of-Thought": [
+      {
+        "actual": 4,
+        "predicted": 4
+      },
+      {
+        "actual": 3,
+        "predicted": null
+      },
+      {
+        "actual": 5,
+        "predicted": null
+      },
+      {
+        "actual": 4,
+        "predicted": null
+      },
+      {
+        "actual": 1,
+        "predicted": null
+      },
+      {
+        "actual": 5,
+        "predicted": null
+      },
+      {
+        "actual": 2,
+        "predicted": null
+      },
+      {
+        "actual": 2,
+        "predicted": null
+      },
+      {
+        "actual": 1,
+        "predicted": null
+      },
+      {
+        "actual": 5,
+        "predicted": null
+      }
+    ]
+  }
+}
